@@ -5,7 +5,8 @@ const app = express();
 const users = ["Angélica", "Emidio", "Flávio", "Larissa"];
 
 app.get("/users", (request, response) => {
-  console.log("listagem de usuários");
+  const search = request.query.search;
+  console.log(search);
 
   return response.json(users);
 });
