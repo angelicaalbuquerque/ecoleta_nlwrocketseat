@@ -116,13 +116,13 @@
 @media (min-width: 2200px) {
   #page-home {
     height: 100vh;
-    background: url("../../assets/home-background.svg") no-repeat 1100px bottom;
+    background: url("../../assets/home-background.svg") no-repeat 1000px bottom;
   }
 }
 
 @media (min-width: 2400px) {
   #page-home {
     height: 100vh;
-    background: url("../../assets/home-background.svg") no-repeat 1300px bottom;
+    background: url("../../assets/home-background.svg") no-repeat 1200px bottom;
   }
 }
