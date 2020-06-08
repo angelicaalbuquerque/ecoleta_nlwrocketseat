@@ -8,6 +8,7 @@ import {
   StyleSheet,
   TouchableOpacity,
   ScrollView,
+  Image,
 } from "react-native";
 import MapView, { Marker } from "react-native-maps";
 import { SvgUri } from "react-native-svg";
@@ -17,6 +18,10 @@ const Points = () => {
 
   function handleNavigateBack() {
     navigation.goBack();
+  }
+
+  function handleNavigateToDetail() {
+    navigation.navigate("Detail");
   }
 
   return (
@@ -42,11 +47,24 @@ const Points = () => {
             }}
           >
             <Marker
+              style={styles.mapMarker}
+              onPress={handleNavigateToDetail}
               coordinate={{
                 latitude: -22.9005651,
                 longitude: -43.195671,
               }}
-            />
+            >
+              <View style={styles.mapMarkerContainer}>
+                <Image
+                  style={styles.mapMarkerImage}
+                  source={{
+                    uri:
+                      "https://images.unsplash.com/photo-1556767576-5ec41e3239ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+                  }}
+                />
+                <Text style={styles.mapMarkerTitle}>Mercado</Text>
+              </View>
+            </Marker>
           </MapView>
         </View>
       </View>
