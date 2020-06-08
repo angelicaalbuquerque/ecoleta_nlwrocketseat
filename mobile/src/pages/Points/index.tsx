@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
   ScrollView,
 } from "react-native";
-import MapView from "react-native-maps";
+import MapView, { Marker } from "react-native-maps";
 import { SvgUri } from "react-native-svg";
 
 const Points = () => {
@@ -32,12 +32,31 @@ const Points = () => {
         </Text>
 
         <View style={styles.mapContainer}>
-          <MapView style={styles.map} />
+          <MapView
+            style={styles.map}
+            initialRegion={{
+              latitude: -22.9005651,
+              longitude: -43.195671,
+              latitudeDelta: 0.014,
+              longitudeDelta: 0.014,
+            }}
+          >
+            <Marker
+              coordinate={{
+                latitude: -22.9005651,
+                longitude: -43.195671,
+              }}
+            />
+          </MapView>
         </View>
       </View>
 
       <View style={styles.itemsContainer}>
-        <ScrollView horizontal>
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={{ paddingHorizontal: 20 }}
+        >
           <TouchableOpacity style={styles.item} onPress={() => {}}>
             <SvgUri
               width={42}
