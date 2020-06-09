@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Feather as Icon } from "@expo/vector-icons";
 import {
   View,
@@ -12,17 +12,76 @@ import {
 } from "react-native";
 import { RectButton } from "react-native-gesture-handler";
 import { useNavigation } from "@react-navigation/native";
+import axios from "axios";
+import RNPickerSelect from "react-native-picker-select";
+
+interface IBGEUFResponse {
+  sigla: string;
+}
+
+interface IBGECityResponse {
+  nome: string;
+}
+
+interface ItemPickerSelect {
+  label: string;
+  value: string;
+}
 
 const Home = () => {
-  const [uf, setUf] = useState("");
-  const [city, setCity] = useState("");
+  const [ufs, setUfs] = useState<ItemPickerSelect[]>([]);
+  const [cityNames, setCityNames] = useState<ItemPickerSelect[]>([]);
+  const [selectedUf, setSelectedUf] = useState("0");
+  const [selectedCity, setSelectedCity] = useState("0");
+
   const navigation = useNavigation();
+
+  useEffect(() => {
+    axios
+      .get<IBGEUFResponse[]>(
+        "https://servicodados.ibge.gov.br/api/v1/localidades/estados?orderBy=nome",
+      )
+      .then(({ data }) => {
+        const ufInitials = data.map((uf) => ({
+          label: uf.sigla,
+          value: uf.sigla,
+        }));
+
+        setUfs(ufInitials);
+      });
+  }, []);
+
+  useEffect(() => {
+    if (selectedUf === "0") {
+      return;
+    }
+    axios
+      .get<IBGECityResponse[]>(
+        `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${selectedUf}/municipios?orderBy=nome`,
+      )
+      .then(({ data }) => {
+        const cityNames = data.map((city) => ({
+          label: city.nome,
+          value: city.nome,
+        }));
+
+        setCityNames(cityNames);
+      });
+  }, [selectedUf]);
 
   function handleNavigateToPoints() {
     navigation.navigate("Points", {
-      uf,
-      city,
+      uf: selectedUf,
+      city: selectedCity,
     });
+  }
+
+  function handleSelectedUf(value: string) {
+    setSelectedUf(value);
+  }
+
+  function handleSelectedCity(value: string) {
+    setSelectedCity(value);
   }
 
   return (
@@ -49,22 +108,16 @@ const Home = () => {
         </View>
 
         <View style={styles.footer}>
-          <TextInput
-            style={styles.input}
-            placeholder="Digite a UF"
-            value={uf}
-            maxLength={2}
-            autoCapitalize="characters"
-            autoCorrect={false}
-            onChangeText={setUf}
+          <RNPickerSelect
+            placeholder={{ label: "Selecione a UF" }}
+            items={ufs}
+            onValueChange={handleSelectedUf}
           />
 
-          <TextInput
-            style={styles.input}
-            placeholder="Digite a cidade"
-            value={city}
-            autoCorrect={false}
-            onChangeText={setCity}
+          <RNPickerSelect
+            placeholder={{ label: "Selecione a cidade" }}
+            items={cityNames}
+            onValueChange={handleSelectedCity}
           />
 
           <RectButton style={styles.button} onPress={handleNavigateToPoints}>
