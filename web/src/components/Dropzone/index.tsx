@@ -1,21 +1,35 @@
-import React, { useCallback } from "react";
+import React, { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import "./styles.css";
 import { FiUpload } from "react-icons/fi";
 
 const Dropzone = () => {
+  const [selectFileUrl, setSelectedFileUrl] = useState("");
+
   const onDrop = useCallback((acceptedFiles) => {
-    console.log(acceptedFiles);
+    const file = acceptedFiles[0];
+
+    const fileUrl = URL.createObjectURL(file);
+
+    setSelectedFileUrl(fileUrl);
   }, []);
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop });
+  const { getRootProps, getInputProps } = useDropzone({
+    onDrop,
+    accept: "image/*",
+  });
 
   return (
     <div className="dropzone" {...getRootProps()}>
-      <input {...getInputProps()} />
-      <p>
-        <FiUpload />
-        Insira aqui a imagem do estabelecimento
-      </p>
+      <input {...getInputProps()} accept="image/*" />
+
+      {selectFileUrl ? (
+        <img src={selectFileUrl} alt="Point thumbnail" />
+      ) : (
+        <p>
+          <FiUpload />
+          Insira aqui a imagem do estabelecimento
+        </p>
+      )}
     </div>
   );
 };
