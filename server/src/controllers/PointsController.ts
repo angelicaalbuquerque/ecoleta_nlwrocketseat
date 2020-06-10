@@ -17,6 +17,15 @@ class PointsController {
       .distinct()
       .select("points.*");
 
+    const serializedPoints = points.map((point) => {
+      return {
+        ...point,
+        image_url: `http://192.168.0.20:3333/uploads/${point.image}`,
+      };
+    });
+
+    return response.json(serializedPoints);
+
     return response.json(points);
   }
 
@@ -29,6 +38,11 @@ class PointsController {
       return response.status(400).json({ message: "Point not found." });
     }
 
+    const serializedPoint = {
+      ...point,
+      image_url: `http://192.168.0.20:3333/uploads/${point.image}`,
+    };
+
     /*
      *  SELECT * FROM items
      *     JOIN point_items ON items.id = point_items.item_id
@@ -39,7 +53,7 @@ class PointsController {
       .where("point_items.point_id", id)
       .select("items.title");
 
-    return response.json({ point, items });
+    return response.json({ point: serializedPoint, items });
   }
 
   async create(request: Request, response: Response) {
