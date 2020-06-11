@@ -43,6 +43,7 @@ const CreatePoint = () => {
     0,
     0,
   ]);
+  const [selectedFile, setSelectedFile] = useState<File>();
 
   const history = useHistory();
 
@@ -121,6 +122,9 @@ const CreatePoint = () => {
   async function handleSubmit(event: FormEvent) {
     event.preventDefault();
 
+    console.log(selectedFile);
+    return;
+
     const { name, email, whatsapp } = formData;
     const uf = selectedUf;
     const city = selectedCity;
@@ -161,7 +165,7 @@ const CreatePoint = () => {
           Cadastro do <br /> ponto de coleta
         </h1>
 
-        <Dropzone />
+        <Dropzone onFileUploaded={setSelectedFile} />
 
         <fieldset>
           <legend>
