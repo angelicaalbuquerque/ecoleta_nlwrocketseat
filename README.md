@@ -25,7 +25,7 @@
 </p>
 
  <p align="center">
-  <a href="https://insomnia.rest/run/?label=NLW%201.0%20-%20Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fangelicaalbuquerque%2Fecoleta_nlwrocketseat%2Fmaster%2Fmobile%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://insomnia.rest/run/?label=NLW%201.0%20-%20Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fangelicaalbuquerque%2Fecoleta_nlwrocketseat%2Fmaster%2Fserver%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 ## 🆙 Next Level Week
@@ -58,13 +58,13 @@ A aplicação Web permite que entidades se cadastrem disponibilizando seus dados
 ### Web
 
 <p align="center">
-  <img alt="Ecoleta" src=".github\Ecoleta.gif" width="100%">
+  <img alt="Ecoleta" src=".github\Ecoleta.gif" width="60%">
 </p>
 
 ### Mobile
 
 <p align="center">
-  <img alt="Ecoleta" src=".github\ecoleta-mobile.gif" width="70%">
+  <img alt="Ecoleta" src=".github\ecoleta-mobile.gif" width="40%">
 </p>
 
 ## ✒️ Layout
