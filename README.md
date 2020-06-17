@@ -28,6 +28,16 @@
   <a href="https://insomnia.rest/run/?label=NLW%201.0%20-%20Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fangelicaalbuquerque%2Fecoleta_nlwrocketseat%2Fmaster%2Fserver%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
+---
+
+<p align="center">
+  <a href="#-next-level-week">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-rodar-o-projeto">Como rodar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-Tecnologias">Tecnologias</a>
+</p>
+
 ## 🆙 Next Level Week
 
 <div align="center">
@@ -58,7 +68,7 @@ A aplicação Web permite que entidades se cadastrem disponibilizando seus dados
 ### Web
 
 <p align="center">
-  <img alt="Ecoleta" src=".github\Ecoleta.gif" width="60%">
+  <img alt="Ecoleta" src=".github\Ecoleta.gif" width="80%">
 </p>
 
 ### Mobile
@@ -89,7 +99,7 @@ $ npm install
 $ npm run knex:migrate
 
 # Instale as Seeds iniciais do banco de dados
-$ yarn knex:seed
+$ npm knex:seed
 
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
@@ -200,8 +210,10 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
+<p align="center">
 Feito com muito ☕ e 🖤 por Angélica Albuquerque
+</p>
 
-👋
-
-<!-- ![](./server/uploads/baterias.svg) -->
+<p align="center">
+👋 
+</p>
