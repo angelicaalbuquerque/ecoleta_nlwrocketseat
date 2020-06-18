@@ -77,7 +77,7 @@ A aplicação Web permite que entidades se cadastrem disponibilizando seus dados
   <img alt="Ecoleta" src=".github\ecoleta-mobile.gif" width="40%">
 </p>
 
-## 🖋️ Layout
+## ✏️ Layout
 
 Você pode visualizar o layout do projeto através [deste link](https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-Booster?node-id=0%3A1) no [Figma](http://figma.com/).
 
