@@ -33,7 +33,7 @@
 <p align="center">
   <a href="#-next-level-week">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-rodar-o-projeto">Como rodar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Tecnologias">Tecnologias</a>
 </p>
@@ -77,7 +77,7 @@ A aplicação Web permite que entidades se cadastrem disponibilizando seus dados
   <img alt="Ecoleta" src=".github\ecoleta-mobile.gif" width="40%">
 </p>
 
-## ✏️ Layout
+## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [deste link](https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-Booster?node-id=0%3A1) no [Figma](http://figma.com/).
 
