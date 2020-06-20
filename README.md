@@ -2,8 +2,6 @@
     <img src=".github\logo-ecoleta.svg" width="300px"/>
 </div>
 
-<br />
-
 <h2 align="center">
    Next Level Week 1.0 | Rocketseat
 </h2>
@@ -12,10 +10,10 @@
 <img alt="badge typescript" src=".github\badge-typescript.svg">
 <img alt="badge node" src=".github\badge-node.svg">
 <img alt="badge npm" src=".github\badge-npm.svg">
-<img alt="badge npm" src=".github\badge-react.svg">
-<img alt="badge npm" src=".github\badge-router.svg">
-<img alt="badge npm" src=".github\badge-visual_studio_code.svg">
-<img alt="badge npm" src=".github\badge-eslint.svg">
+<img alt="badge react" src=".github\badge-react.svg">
+<img alt="badge router" src=".github\badge-router.svg">
+<img alt="badge vscode" src=".github\badge-visual_studio_code.svg">
+<img alt="badge eslint" src=".github\badge-eslint.svg">
 </p>
 
 <p align="center">
@@ -35,7 +33,8 @@
   <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-rodar-o-projeto">Como rodar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Tecnologias">Tecnologias</a>
+  <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Entre-em-contato">Contato</a>
 </p>
 
 ## 🆙 Next Level Week
@@ -207,6 +206,22 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 - [VS Code](https://code.visualstudio.com/)
 
 </details>
+
+## 📬 Entre em contato!
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/angelica-albuquerque/" target="_blank" >
+    <img alt="Linkedin - Angélica Albuquerque" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+  </a>&nbsp;&nbsp;&nbsp;
+
+  <a href="mailto:angelica.o.albuquerque@gmail.com" target="_blank" >
+    <img alt="Email - Angélica Albuquerque" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="https://twitter.com/angelica_oa/" target="_blank">
+    <img alt="Twitter - Angélica Albuquerque" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fangelica_oa">
+  </a>
+</div>
 
 ---
 
