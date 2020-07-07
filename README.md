@@ -3,17 +3,25 @@
 </div>
 
 <h2 align="center">
-   Next Level Week 1.0 | Rocketseat
+   Next Level Week 1.0 | <img alt="badge rocketseat" align="center" src=".github\rocket.svg">
 </h2>
 
 <p align="center">
 <img alt="badge typescript" src=".github\badge-typescript.svg">
 <img alt="badge node" src=".github\badge-node.svg">
 <img alt="badge npm" src=".github\badge-npm.svg">
+<img alt="badge npm" src=".github\sqlite.svg">
 <img alt="badge react" src=".github\badge-react.svg">
-<img alt="badge router" src=".github\badge-router.svg">
+<img alt="badge react native" src=".github\rnative.svg">
+<img alt="badge react router" src=".github\badge-router.svg">
+<img alt="badge react leaflet" src=".github\reactleaf.svg">
+<img alt="badge hapi" src=".github\hapi.svg">
+<img alt="badge expo" src=".github\expo.svg">
+<img alt="badge knexjs" src=".github\knexjs.svg">
+<img alt="badge prettier" src=".github\prettier.svg">
 <img alt="badge vscode" src=".github\badge-visual_studio_code.svg">
 <img alt="badge eslint" src=".github\badge-eslint.svg">
+<img alt="badge eslint" src=".github\figma.svg">
 </p>
 
 <p align="center">
@@ -210,17 +218,17 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 ## 📬 Entre em contato!
 
 <div align="left">
-  <a href="https://www.linkedin.com/in/angelica-albuquerque/" target="_blank" >
-    <img alt="Linkedin - Angélica Albuquerque" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
-  </a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/angelica-albuquerque/" target="_blank" >
+  <img alt="Linkedin - Angélica Albuquerque" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+</a> &nbsp;&nbsp;&nbsp;
 
-  <a href="mailto:angelica.o.albuquerque@gmail.com" target="_blank" >
-    <img alt="Email - Angélica Albuquerque" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:angelica.o.albuquerque@gmail.com" target="_blank" >
+  <img alt="Email - Angélica Albuquerque" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+</a> &nbsp;&nbsp;&nbsp;
 
-  <a href="https://twitter.com/angelica_oa/" target="_blank">
-    <img alt="Twitter - Angélica Albuquerque" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fangelica_oa">
-  </a>
+<a href="https://twitter.com/angelica_oa/" target="_blank">
+  <img alt="Twitter - Angélica Albuquerque" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fangelica_oa">
+</a>
 </div>
 
 ---

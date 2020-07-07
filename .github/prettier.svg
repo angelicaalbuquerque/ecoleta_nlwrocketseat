@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="20">
+    <linearGradient id="b" x2="0" y2="100%">
+        <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+        <stop offset="1" stop-opacity=".1"/>
+    </linearGradient>
+
+    <clipPath id="a">
+        <rect width="78" height="20" rx="3" fill="#fff"/>
+    </clipPath>
+
+    <g clip-path="url(#a)">
+        <path fill="#555" d="M0 0h25v20H0z"/>
+        <path fill="#1A2B34" d="M25 0h53v20H25z"/>
+        <path fill="url(#b)" d="M0 0h78v20H0z"/>
+    </g>
+    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="12">
+        <image x="5" y="3" width="14" height="14" xlink:href="data:image;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAAAnFBMVEUaKzQoTFNEiY1QpqhWs7QoS1MgMTssPkgyRE4zRlA3bXFWsrM3bHImOEI0RlFLNz6rTlHVWVrqXl6qT1FQTji3kkHlsUb7v0d+REjpXl59Q0iGcj36vkfWWVpRTzlQpadDioxDRFeSc5q1ibjGk8ZsXXrFksVMNz7ksEW2kkGHcz20ibeRdJltXXpERFiIcz0bKzQaKjQaKzUaLDQ2xOENAAAEqklEQVR4AezYg5kEQRBA4RrbWuef5fn6jPoGi3l/Bo2iAAAAAAAAAADwApbtuGfi2J584AdhNEIY+KIWu+eUpPJOFo2VZ6JkueeVeGL40Xi5Lzq2e2a2GEE0gUB0HPfMHDHCaAIhF0AIqHiJe16WGH4ejeeLUnreG4jlnWz8DWSi5p2zEbLO1ggBAAAARVnVv6qaQj5ou35YQN+1fzfK41vhzbb+03Yn7+wPw0IOe+2opN8JFtv6H7aFGO1hWMyhVQ7L+p1gWf9LKUY3LKhTr0sC0TnW/3IUox8W1KsXZiEXQAiQBFV2ay2DRtFUf8R/WcgHp/v27ivJbR2IwrBy1lXWROU4Oe1/b/eZU1Nttg8IG9b/rYCFKpDN5mnwXyiEAAAAgHplVQtita6XMjbb3T6n3XZjpBeNPKFeCve6RaX+Dse9w/FgpBeNPKH6MlTvFpX62xz3LsdNNr3ozxOGzwlKkaft3mlrXpUdpgqfE9RDb7u90864qvxxuhYLwBZI/yaYvSpfnrCR/mMwe1XOPGH/DxZC1UrAQqieLYTKYQshAAAAwE796R+sjTJ1MFyM3RbDwY9XIJTCd/dyZME/12sHMxxhjb7cE5zey6EV/1yvHc1xxHUaek9wJseWHJq5wlmOwFZTb4jMleCaMNa6GP+2hXkFLRaALXABN0HjChoX9hj8z90TpBACAAAA9I/YSimcLcHFYlwohZUYg/IydHevD1KJPUEhyKK/Dk/v9VE6vScoRpmUhshMH6bUGyJqmE1pic2LGqdtsQBsgUu6CUo9wfQfg0JPkEIIAAAAOA0Xxufn6ex8ZTo/TAs6qjvS7PC1GUB4vHe8noQcwoo2O3wKcGzW/TT4GF682eFhiIPTZsEHMeMNTi5CHJ03Dz6KK4zOsgBsAfU8wdNffxPUZ4etvN61t3MX9zEYfnZ4kC2ETt8KoYezs0uXRiEEAAAA2KWrXZJmy2jnsMtm+7Q3PT17P8ZHOE+w23MMPpndxpdj+DhGjPMEu3XH6JvRbdwcwwdy4pwnWBGGH4fucNa28B8sVIXW1EIYet0VFcprsQBsAW6CSTwGDwU/BhMohJ6f5FSiUAgBAAAAr9tdtvyM92u9+WzpLHYLKIVfzBeQt7i/VGx76S9Dr+Yr6DLuTzXbuhCzw1thvFEdg9QFmB3eCQOu6iCsrsUCsAXU2eHXqP8YXma6fjp9dvjFEZfXPXq7fiZ9dni3fb2QQggAAAB4/VVeT0/zxSD0BFXHQ9i+XuyeoCwbZGnHFf88QSnKFF788wSlMFsELRaALeDtCepeA/f1YvcEVS+B+3qxe4LPWiG0fU2yEAIAAADKlVXtB6t1/fuH8rN9nmCipXAn54DUo531S7YnWM45IreUs366+LPDlZxxqVnCDZFqzjHZuR51i6PFArAFws0Ol7OJQT3rF0HI2eFOzpMFH9PuCdZ/LoSqlbJ9xHI265dcIQQAAACchqOxYDQZpF0KX49VN7cp9wRPY93NIOGe4HAcwDDhhshiHMAi2ZYYC8AWGNyMdaeUe4K3+gpcp90THEy0Qmh4oicIAABwad5LuGgfJVy4zxKA/LhBfJUAANH9D5mak7hqUFbgAAAAAElFTkSuQmCC"/>
+        <text x="19.5" y="15" fill="#010101" fill-opacity=".3"></text>
+        <text x="19.5" y="14"></text>
+        <text x="50.5" y="15" fill="#010101" fill-opacity=".3">Prettier</text>
+        <text x="50.5" y="14">Prettier</text>
+    </g>
+</svg>
