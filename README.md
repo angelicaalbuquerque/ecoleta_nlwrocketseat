@@ -217,26 +217,29 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 📬 Entre em contato!
 
-<div align="left">
-<a href="https://www.linkedin.com/in/angelica-albuquerque/" target="_blank" >
-  <img alt="Linkedin - Angélica Albuquerque" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
-</a> &nbsp;&nbsp;&nbsp;
+<p align="left">
+    <a href="https://www.frontangie.dev/" target="blank" style="text-decoration: none; color: unset;">
+    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/main/icons/circle/portfolio.svg" alt="frontangie.dev" height="50" width="50" />
+  </a>
+  <a href="https://linkedin.com/in/angelica-albuquerque/" target="blank" style="text-decoration: none; color: unset;">
+    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/main/icons/circle/linkedin.svg" alt="Linkedin" height="50" width="50" />
+  </a>
+  <a href="mailto:hi@frontangie.dev" target="blank" style="text-decoration: none;">
+    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/main/icons/circle/email.svg" alt="Email" height="50" width="50" />
+  </a>
+  <a href="https://twitter.com/frontangie" target="blank" style="text-decoration: none;">
+    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/main/icons/circle/twitter.svg" alt="Twitter" height="50" width="50" />
+    </a>
+</p>
 
-<a href="mailto:angelica.o.albuquerque@gmail.com" target="_blank" >
-  <img alt="Email - Angélica Albuquerque" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
-</a> &nbsp;&nbsp;&nbsp;
-
-<a href="https://twitter.com/angelica_oa/" target="_blank">
-  <img alt="Twitter - Angélica Albuquerque" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fangelica_oa">
-</a>
-</div>
 
 ---
 
 <p align="center">
-Feito com muito ☕ e 🖤 por Angélica Albuquerque
+Feito com ☕ e 🖤 por Angélica Albuquerque
 </p>
 
 <p align="center">
-👋 
+<img src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/main/gif/hi.gif" width="25px"> 
 </p>
+
